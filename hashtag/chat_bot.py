@@ -6,7 +6,7 @@
 import streamlit as st
 from openai import OpenAI
 
-modelo_ia = OpenAI(api_key='AQ.Ab8RN6LIhNCnfOcZq8ZJxBaXPSlDIRo1N8WpEe-AxxFMZh8lfw',
+modelo_ia = OpenAI(api_key='',
                    base_url="https://generativelanguage.googleapis.com/v1beta/openai")
 # titulo do chat
 st.write("## ChatBot IA")
